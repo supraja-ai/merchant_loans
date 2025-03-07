@@ -1,6 +1,0 @@
-flask
-langchain
-langchain-openai
-langchain-groq
-langchain-google-genai
-python-dotenv
