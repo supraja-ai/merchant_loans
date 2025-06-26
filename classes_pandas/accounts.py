@@ -97,7 +97,7 @@ class SavingsAccount(BaseAccount):
         return "member_id"
 
 
-checking1 = CheckingAccount()
+checking1 = CheckingAccount() #defined
 baseAccount1 = BaseAccount()
 baseAccount1.add_money_to_account()
 

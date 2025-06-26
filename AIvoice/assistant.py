@@ -17,5 +17,5 @@ def assistant():
                 response = f"You said: {user_input}. How can I help?"
                 speak(response)
 
-# Run the AI Assistant
+# Run AI Assistant
 assistant()
