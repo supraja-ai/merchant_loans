@@ -12,3 +12,4 @@ fig, ax = plt.subplots()
 ax.plot(df['x'], df['y'], marker='o')
 ax.set_title("Interactive Plot (Jupyter Notebook)")
 plt.show()
+#
