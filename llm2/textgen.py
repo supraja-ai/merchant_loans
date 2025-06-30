@@ -57,7 +57,7 @@ def get_chat_chain(session_id, model_name = "openai" , streaming=False):
         ]
     )
 
-    # Create a chain that includes the prompt and the LLM
+    # Create a chain that includes the prompt and  LLM
     chain = prompt | llm | parser
 
     # Create a runnable (executable) with message history
